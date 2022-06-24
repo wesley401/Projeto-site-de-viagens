@@ -1,0 +1,16 @@
+#icon-maos {
+    width: 5rem;
+}
+#imagem-guia {
+    width: 10rem;
+    height: 10rem;
+}
+#navbar-principal{
+    margin-right:75rem ;
+}
+
+@media(max-width: 769px) {
+    #navbar-principal{
+        margin-right: 0;
+    }
+}
