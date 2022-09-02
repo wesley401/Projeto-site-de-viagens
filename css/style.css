@@ -4,13 +4,22 @@
 #imagem-guia {
     width: 10rem;
     height: 10rem;
+}   
+.logo__nettur{
+    width: 8rem;
 }
-#navbar-principal{
-    margin-right:75rem ;
+.logo__nettur-secundary {
+    width: 20%;
 }
-
-@media(max-width: 769px) {
-    #navbar-principal{
-        margin-right: 0;
+.carousel__imagem{
+    width: 100%;
+    height: 20rem;
+}
+.carousel__texto{
+    text-shadow: 0 0 5px black;
+}
+@media(min-width: 769px) {
+    .carousel__imagem{
+        height: 30rem;
     }
 }
